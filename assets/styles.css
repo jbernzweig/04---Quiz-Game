@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.container {
+    width: 900px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn {
+    border: 1px solid greenyellow;
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.btn:hover {
+    border-color: red;
+}
