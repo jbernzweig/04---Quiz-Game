@@ -74,10 +74,38 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is 2 + 2?',
+        question: 'Javascript is not the same as Java',
         answers: [
-            { text: 4, correct: true },
-            { text: 22, correct: false},
+            { text: "True", correct: true },
+            { text: "False", correct: false },
+        ]
+    },
+    {
+        question: 'Javascript is great for beginners',
+        answers: [
+            { text: "True", correct: true },
+            { text: "False", correct: false },
+        ]
+    },
+    {
+        question: 'For Loops are important in Javascript',
+        answers: [
+            { text: "True", correct: true },
+            { text: "False", correct: false },
+        ]
+    },
+    {
+        question: 'If Statements are important in Javascript',
+        answers: [
+            { text: "True", correct: true },
+            { text: "False", correct: false },
+        ]
+    },
+    {
+        question: 'Javascript is a brand new language, created in 2009',
+        answers: [
+            { text: "True", correct: false },
+            { text: "False", correct: true },
         ]
     }
 ]
