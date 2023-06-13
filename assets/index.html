@@ -6,22 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
-    <title>Code Quiz</title>
+    <title>Quiz Game!</title>
 </head>
 
 <header>
-    Welcome to the Coding Quiz!
+    <div>
+        <p>Welcome to the Coding Quiz Game!</p>
+    </div>
+    
 </header>
 
+<nav class="timer">
+    <p> 60 </p>
+</nav>
+
+
 <body>
-    <div class="container">
+    <section class="container">
         <div id="question-container" class="hide">
             <div id="question">Question</div>
             <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
+                <button class="btn">True</button>
+                <button class="btn">False</button>
+                <!-- <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button> -->
             </div>
         </div>
 
@@ -29,6 +37,6 @@
             <button id="start-btn" class="start-btn btn">Start</button>
             <button id="next-btn" class="next-btn btn hide">Next</button>
         </div>
-    </div>
+    </section>
 </body>
 </html>

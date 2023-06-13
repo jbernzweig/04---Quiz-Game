@@ -19,6 +19,12 @@ function startGame() {
     questionContainerElement.classList.remove('hide')
     setNextQuestion()
 }
+
+// timer 
+
+
+
+
 // function to set a question
 function setNextQuestion(question) {
     resetState()
