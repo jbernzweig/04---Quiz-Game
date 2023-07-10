@@ -5,7 +5,7 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
 // event listener for Start Button
-startButton.addEventListener('click', startGame)
+startButton.addEventListener('click', startQuiz)
 
 // event listener for Next Button
 nextButton.addEventListener('click', () => {
@@ -13,8 +13,8 @@ nextButton.addEventListener('click', () => {
     setNextQuestion()
 })
 
-// function to start the game
-function startGame() {
+// function to start the quiz
+function startQuiz() {
     startButton.classList.add('hide')
     questionContainerElement.classList.remove('hide')
     setNextQuestion()
@@ -35,8 +35,6 @@ function updateCountdown() {
     countdownEl.innerHTML = `${seconds}`;
     time--;
 }
-
-
 
 // function to set a question
 function setNextQuestion(question) {
